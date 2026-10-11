@@ -1,0 +1,13 @@
+name: Test Workflow
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f3002500@ds.study.iitm.ac.in
+        run: echo "Hello TDS 2026"
